@@ -1,6 +1,4 @@
 import random
-zar1=0
-zar2=0
 sum=0
 while True:
     zar1 = random.randint(1,6)
