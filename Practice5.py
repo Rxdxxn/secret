@@ -1,11 +1,9 @@
-import random
-sum=0   
+import random  
 n=int(input("Introduceti numarul de elemente:"))
-N=0
 A=[]
 for x in range(n):
     A.extend([random.randint(1,100)])
-for i in range(0,len(A)):
-    sum=sum(A[i])-max(A)
+Suma=sum(A)-max(A)
+print("Numarul maxim din tablou",max(A))
 print("Tabloul A generat este:",A)
-print("Suma este egala cu:",sum)
+print("Suma este egala cu:",Suma)
