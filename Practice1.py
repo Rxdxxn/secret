@@ -5,7 +5,6 @@ sneg=0
 k=[]
 for x in range(n):
     k.extend([random.randint(-50,50)])
-    k[x]=int(k[x])
     if  k[x] > 0:
         spoz=spoz+k[x]
     elif k[x] < 0:
